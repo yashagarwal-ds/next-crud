@@ -58,7 +58,7 @@ const Users = () => {
 
   return (
     <div>
-      Users
+      <h2 className="text-center">Users List</h2>
       {data.length > 0 ?
       <table className="table table-bordered">
         <thead>
